@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Hydra - Marketplace order on ops tool" skipped="0" tests="2" time="27.81" timestamp="2019-09-19 04:18:04"><testcase name="Full flow marketplace order happy case"><failure message="Sign in error: {&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;} - STOP APP" type="java.lang.AssertionError">Sign in error: {"status":500,"error":"Internal Server Error"} - STOP APP</failure><system-err>Sign in error: {"status":500,"error":"Internal Server Error"} - STOP APP
+lgv.automation.util.Log.errorAndStop(Log.java:30)
+lgv.automation.steps.api.BrokerSteps.signIn(BrokerSteps.java:750)
+lgv.automation.steps.api.BrokerSteps.shouldBeAbleToSignIn(BrokerSteps.java:1227)
+lgv.automation.serenityCucumber.api.features.steps.broker.SignIn.driver_should_able_to_sign_in_on_driver_app(SignIn.java:23)
+✽.broker should be able to sign in broker app(src/test/resources/features/api/smokeTests/marketPlaceOrderOnOpsTool.feature:4)
+</system-err></testcase><testcase name="Full flow marketplace order happy case with multiple drivers"><failure message="Sign in error: {&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;} - STOP APP" type="java.lang.AssertionError">Sign in error: {"status":500,"error":"Internal Server Error"} - STOP APP</failure><system-err>Sign in error: {"status":500,"error":"Internal Server Error"} - STOP APP
+lgv.automation.util.Log.errorAndStop(Log.java:30)
+lgv.automation.steps.api.BrokerSteps.signIn(BrokerSteps.java:750)
+lgv.automation.steps.api.BrokerSteps.shouldBeAbleToSignIn(BrokerSteps.java:1227)
+lgv.automation.serenityCucumber.api.features.steps.broker.SignIn.driver_should_able_to_sign_in_on_driver_app(SignIn.java:23)
+✽.broker should be able to sign in broker app(src/test/resources/features/api/smokeTests/marketPlaceOrderOnOpsTool.feature:4)
+</system-err></testcase></testsuite>
