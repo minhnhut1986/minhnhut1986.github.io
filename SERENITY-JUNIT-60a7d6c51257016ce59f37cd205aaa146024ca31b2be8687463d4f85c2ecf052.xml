@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Hydra - Marketplace order on app" skipped="0" tests="2" time="135.68" timestamp="2019-09-19 04:15:48"><testcase name="Driver should be able to bidding new order when drivers of this order reject new offer"/><testcase name="Full flow marketplace order happy case with multiple drivers"><failure message="Driver sign in error: {&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;} - STOP APP" type="java.lang.AssertionError">Driver sign in error: {"status":500,"error":"Internal Server Error"} - STOP APP</failure><system-err>Driver sign in error: {"status":500,"error":"Internal Server Error"} - STOP APP
-lgv.automation.util.Log.errorAndStop(Log.java:30)
-lgv.automation.steps.api.DriverSteps.signIn(DriverSteps.java:150)
-lgv.automation.steps.api.DriverSteps.shouldBeAbleToSignIn(DriverSteps.java:814)
-lgv.automation.serenityCucumber.api.features.steps.driver.SignIn.driver_should_able_to_sign_in_on_driver_app(SignIn.java:41)
-✽.driver 1 should be able to sign in driver app(src/test/resources/features/api/smokeTests/marketPlaceOrderOnApp.feature:21)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Marketplace order on app" skipped="0" tests="2" time="278.09" timestamp="2019-09-20 11:24:40"><testcase name="Driver should be able to bidding new order when drivers of this order reject new offer"/><testcase name="Full flow marketplace order happy case with multiple drivers"/></testsuite>

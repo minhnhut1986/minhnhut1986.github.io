@@ -109,7 +109,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-09-2019 16:18</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-09-2019 11:31</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -193,12 +193,12 @@
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td width="50" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -214,19 +214,19 @@
                             </span>
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">FAILURE</span></td>
-                    <td width="100"><span class="top-level-step">2.78s</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">3.56s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
                         <table id="stepSection0" style="display:none; width:100%">
 
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td width="50" class="step-icon">
                         <a name="0-2"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-2')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0-2 failure-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0-2 success-icon"
                                    style="margin-left: 40px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -242,47 +242,9 @@
                             </span>
                         </div>
                     </td>
-                    <td width="100"><span class="nested-step">FAILURE</span></td>
-                    <td width="100"><span class="nested-step">2.77s</span></td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2.55s</span></td>
                 </tr>
-                    <tr class="test-FAILURE">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: Sign in error: {&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;} - STOP APP</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-2">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>lgv.automation.util.Log.errorAndStop(Log.java:30)<br />lgv.automation.steps.api.BrokerSteps.signIn(BrokerSteps.java:750)<br />lgv.automation.steps.api.BrokerSteps.shouldBeAbleToSignIn(BrokerSteps.java:1227)<br />lgv.automation.serenityCucumber.api.features.steps.broker.SignIn.driver_should_able_to_sign_in_on_driver_app(SignIn.java:23)<br />cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)<br />cucumber.runner.TestStep.executeStep(TestStep.java:63)<br />cucumber.runner.TestStep.run(TestStep.java:49)<br />cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)<br />cucumber.runner.TestCase.run(TestCase.java:44)<br />cucumber.runner.Runner.runPickle(Runner.java:40)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                        </td>
-                    </tr>
                 <tr>
                     <td colspan="5">
                         <table id="stepSection0-2" style="display:none; width:100%">
@@ -312,14 +274,388 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <h4>Response</h4>
-                                            <p>Status code: 500</p>
+                                            <p>Status code: 200</p>
                                             <p>Content Type: application/json</p>
                                             <h4>Request Headers</h4>
                                             <pre>DeviceId=android<br>Platform=android<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
                                             <h4>Content Body</h4>
                                             <pre>{<br>    &quot;credentials&quot;: {<br>        &quot;email&quot;: &quot;automation_test143660@logivan.canh&quot;,<br>        &quot;password&quot;: &quot;111111&quot;<br>    }<br>}</pre>
                                             <h4>Response Headers</h4>
-                                            <pre>Server: Cowboy<br>Date: Thu, 19 Sep 2019 09:18:17 GMT<br>Connection: keep-alive<br>Content-Type: application/json; charset=UTF-8<br>X-Request-Id: 4b85c4ce-e8b7-4353-b904-0d5096a738ca<br>X-Runtime: 0.294439<br>Vary: Origin<br>Content-Length: 46<br>Via: 1.1 vegur</pre>
+                                            <pre>Server: Cowboy<br>Date: Fri, 20 Sep 2019 04:31:13 GMT<br>Connection: keep-alive<br>X-Frame-Options: SAMEORIGIN<br>X-Xss-Protection: 1; mode=block<br>X-Content-Type-Options: nosniff<br>X-Download-Options: noopen<br>X-Permitted-Cross-Domain-Policies: none<br>Referrer-Policy: strict-origin-when-cross-origin<br>Authorization: zXX4D3jgnKXQSHSDyAKF5GxdmYs5sQ<br>Content-Type: application/json; charset=utf-8<br>Etag: W/&quot;a51bf205b91c627f1e768b2560d289d3&quot;<br>Cache-Control: max-age=0, private, must-revalidate<br>Set-Cookie: _logivan_api_session=CWK0yhi6LXYbHoxU5qb7moRYJL2eA5Jjs2L9M8WKwk8KvleZ1y7LltjrcxpbyNXh575sMj9NxJhFWvbVgo8kpngdCb7Qu%2FHOS1365uSjFzT8t%2FzLUD2OHGpu%2BfeE7K6EuKcVxRSd4GB0x8DpoxMIaDcFRFM%3D--Lue4tUKcGase%2By61--DQSJW6IyK2QLI1jEwU3vTQ%3D%3D; path=/; HttpOnly<br>X-Request-Id: 10ab2325-66dc-4700-a567-3580518ec5fa<br>X-Runtime: 0.232499<br>Vary: Origin<br>Transfer-Encoding: chunked<br>Via: 1.1 vegur</pre>
+                                        <h4>Response Body</h4>
+                                            <pre>{<br>    &quot;broker&quot;: {<br>        &quot;id&quot;: 12932,<br>        &quot;email&quot;: &quot;automation_test143660@logivan.canh&quot;,<br>        &quot;tax_number&quot;: null,<br>        &quot;company_address&quot;: null,<br>        &quot;company_name&quot;: null,<br>        &quot;phone_number&quot;: &quot;+84983155051&quot;,<br>        &quot;status&quot;: &quot;verified&quot;,<br>        &quot;business_registration_url&quot;: null,<br>        &quot;is_affiliate&quot;: false,<br>        &quot;company_id&quot;: null,<br>        &quot;broker_company_id&quot;: null,<br>        &quot;name&quot;: &quot;Mai thu bay&quot;,<br>        &quot;authentication_token&quot;: &quot;&quot;,<br>        &quot;roles&quot;: [<br>            <br>        ],<br>        &quot;user_roles&quot;: [<br>            <br>        ],<br>        &quot;kind&quot;: null,<br>        &quot;broker_type&quot;: null,<br>        &quot;is_new_user&quot;: null,<br>        &quot;broker_company&quot;: null<br>    }<br>}</pre>
+                                            <h4>Response Cookies</h4>
+                                            <pre>_logivan_api_session=CWK0yhi6LXYbHoxU5qb7moRYJL2eA5Jjs2L9M8WKwk8KvleZ1y7LltjrcxpbyNXh575sMj9NxJhFWvbVgo8kpngdCb7Qu%2FHOS1365uSjFzT8t%2FzLUD2OHGpu%2BfeE7K6EuKcVxRSd4GB0x8DpoxMIaDcFRFM%3D--Lue4tUKcGase%2By61--DQSJW6IyK2QLI1jEwU3vTQ%3D%3D;Path=/;HttpOnly</pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </span>
+                            </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+                        </table>
+                    </td>
+                <tr>
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                                <span class="top-level-step">
+                                Given driver 1 should be able to sign in driver app
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">3.65s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1-2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1-2 success-icon"
+                                   style="margin-left: 40px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-2')"
+                               style="display:block;">
+                                <span class="nested-step">
+                                Should be able to sign in: +84983117228, 111111
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2.64s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection1-2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1-2-2"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                POST https://logivan-testbed1.herokuapp.com/api/v2/driver/login
+                            </span>
+                            <span class="evidence">
+                                    <span class="piece-of-evidence">
+                        <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                            data-target="#restModal-REST-6">
+                        REST Query
+                    </button>
+                </span>
+                        <!-- Modal -->
+                        <div class="rest-query-details">
+                            <div class="collapse multi-collapse" id="restModal-REST-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>Response</h4>
+                                            <p>Status code: 200</p>
+                                            <p>Content Type: application/json</p>
+                                            <h4>Request Headers</h4>
+                                            <pre>DeviceId=android<br>Platform=android<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                            <h4>Content Body</h4>
+                                            <pre>{<br>    &quot;credentials&quot;: {<br>        &quot;phone_number&quot;: &quot;+84983117228&quot;,<br>        &quot;password&quot;: &quot;111111&quot;<br>    }<br>}</pre>
+                                            <h4>Response Headers</h4>
+                                            <pre>Server: Cowboy<br>Date: Fri, 20 Sep 2019 04:31:17 GMT<br>Connection: keep-alive<br>X-Frame-Options: SAMEORIGIN<br>X-Xss-Protection: 1; mode=block<br>X-Content-Type-Options: nosniff<br>X-Download-Options: noopen<br>X-Permitted-Cross-Domain-Policies: none<br>Referrer-Policy: strict-origin-when-cross-origin<br>Authorization: Hx6S44K_8ETr4K7arAv3RerE1Hq_3w<br>Content-Type: application/json; charset=utf-8<br>Etag: W/&quot;c82672913aa83cf0585067b605a330be&quot;<br>Cache-Control: max-age=0, private, must-revalidate<br>Set-Cookie: _logivan_api_session=5v3O1dmAYIC3xNUN%2FSwdf3kpKdX3TsqBhT7O6i7pf9v00gvNgPCQBN3tvwe0y4SFqE1miBEXQu3Wx6UJ4LmnAvn7auovfCIXjq7LvG62EM6blTVCtdLlW%2FLafgaFOclPnxldD0sgFLdpx1hCPZe%2BDZ81xbY%3D--IXanshhNovOR1QWH--RAPHgBwmZw84ifuxkyy%2FbA%3D%3D; path=/; HttpOnly<br>X-Request-Id: 73ea2696-a423-4da1-9798-57292f2cb30e<br>X-Runtime: 0.207957<br>Vary: Origin<br>Transfer-Encoding: chunked<br>Via: 1.1 vegur</pre>
+                                        <h4>Response Body</h4>
+                                            <pre>{<br>    &quot;driver&quot;: {<br>        &quot;is_success&quot;: true,<br>        &quot;messages&quot;: &quot;Đăng nhập thành công&quot;,<br>        &quot;data&quot;: {<br>            &quot;user&quot;: {<br>                &quot;id&quot;: 24693,<br>                &quot;name&quot;: &quot;Mai Thu Hai&quot;,<br>                &quot;phone_number&quot;: &quot;+84983117228&quot;,<br>                &quot;email&quot;: null,<br>                &quot;address&quot;: null,<br>                &quot;date_of_birth&quot;: null,<br>                &quot;license_id&quot;: &quot;222153403&quot;,<br>                &quot;license_date&quot;: &quot;2022-05-27T00:00:00.000+07:00&quot;,<br>                &quot;identity_id&quot;: null,<br>                &quot;identity_date&quot;: null,<br>                &quot;business_registration&quot;: null,<br>                &quot;transportation_permit&quot;: null,<br>                &quot;status&quot;: &quot;approved&quot;,<br>                &quot;company_name&quot;: null,<br>                &quot;identity_id_url&quot;: &quot;https://firebasestorage.googleapis.com/v0/b/logivan-driver-development.appspot.com/o/identity_photos%2F1557992548857?alt=media&amp;token=b4724a05-04e8-4246-b238-a71f340f8d6e&quot;,<br>                &quot;business_registration_url&quot;: null,<br>                &quot;transportation_permit_url&quot;: null,<br>                &quot;created_at&quot;: &quot;2019-09-11T14:09:48.124+07:00&quot;,<br>                &quot;updated_at&quot;: &quot;2019-09-20T11:31:17.982+07:00&quot;,<br>                &quot;can_tax_invoice_issued&quot;: false,<br>                &quot;notes&quot;: null,<br>                &quot;license_url&quot;: &quot;https://firebasestorage.googleapis.com/v0/b/logivan-driver-development.appspot.com/o/identity_photos%2F1557992551934?alt=media&amp;token=42a4d862-fe55-4237-8fc8-cb0c5a9142af&quot;,<br>                &quot;prospect_driver_id&quot;: null,<br>                &quot;current_company_id&quot;: null,<br>                &quot;hidden&quot;: false,<br>                &quot;bid_times_count&quot;: 108,<br>                &quot;order_inquiries_count&quot;: 0,<br>                &quot;certificate_registry_url&quot;: null,<br>                &quot;smr_version&quot;: &quot;2.0c&quot;,<br>                &quot;referral_id&quot;: null,<br>                &quot;approved_referee_count&quot;: 0,<br>                &quot;referrals_count&quot;: 0,<br>                &quot;rewarded_count&quot;: 0,<br>                &quot;certificate_registry_plate&quot;: null,<br>                &quot;certificate_registry_date&quot;: null,<br>                &quot;broker_call_logs_count&quot;: 0,<br>                &quot;activities_count&quot;: 0,<br>                &quot;is_company&quot;: false,<br>                &quot;source&quot;: null,<br>                &quot;manager_id&quot;: null,<br>                &quot;verified_at&quot;: &quot;2019-09-11T14:10:50.155+07:00&quot;,<br>                &quot;shipments_count&quot;: 239,<br>                &quot;avatar_url&quot;: null,<br>                &quot;rejected_at&quot;: null,<br>                &quot;broker_reviews_count&quot;: 22,<br>                &quot;ops_reviews_count&quot;: 0,<br>                &quot;latest_call_log_id&quot;: null,<br>                &quot;locked&quot;: false,<br>                &quot;locked_reason&quot;: null,<br>                &quot;authentication_token&quot;: &quot;&quot;,<br>                &quot;roles&quot;: [<br>                    <br>                ],<br>                &quot;user_roles&quot;: [<br>                    <br>                ]<br>            }<br>        },<br>        &quot;is_new_user&quot;: null<br>    }<br>}</pre>
+                                            <h4>Response Cookies</h4>
+                                            <pre>_logivan_api_session=5v3O1dmAYIC3xNUN%2FSwdf3kpKdX3TsqBhT7O6i7pf9v00gvNgPCQBN3tvwe0y4SFqE1miBEXQu3Wx6UJ4LmnAvn7auovfCIXjq7LvG62EM6blTVCtdLlW%2FLafgaFOclPnxldD0sgFLdpx1hCPZe%2BDZ81xbY%3D--IXanshhNovOR1QWH--RAPHgBwmZw84ifuxkyy%2FbA%3D%3D;Path=/;HttpOnly</pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </span>
+                            </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+                        </table>
+                    </td>
+                <tr>
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block;">
+                                <span class="top-level-step">
+                                And driver 2 should be able to sign in driver app
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">4.35s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2-2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2-2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection2-2 success-icon"
+                                   style="margin-left: 40px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2-2')"
+                               style="display:block;">
+                                <span class="nested-step">
+                                Should be able to sign in: +84983117994, 111111
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">3.35s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection2-2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2-2-2"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                POST https://logivan-testbed1.herokuapp.com/api/v2/driver/login
+                            </span>
+                            <span class="evidence">
+                                    <span class="piece-of-evidence">
+                        <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                            data-target="#restModal-REST-9">
+                        REST Query
+                    </button>
+                </span>
+                        <!-- Modal -->
+                        <div class="rest-query-details">
+                            <div class="collapse multi-collapse" id="restModal-REST-9">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>Response</h4>
+                                            <p>Status code: 200</p>
+                                            <p>Content Type: application/json</p>
+                                            <h4>Request Headers</h4>
+                                            <pre>DeviceId=android<br>Platform=android<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                            <h4>Content Body</h4>
+                                            <pre>{<br>    &quot;credentials&quot;: {<br>        &quot;phone_number&quot;: &quot;+84983117994&quot;,<br>        &quot;password&quot;: &quot;111111&quot;<br>    }<br>}</pre>
+                                            <h4>Response Headers</h4>
+                                            <pre>Server: Cowboy<br>Date: Fri, 20 Sep 2019 04:31:22 GMT<br>Connection: keep-alive<br>X-Frame-Options: SAMEORIGIN<br>X-Xss-Protection: 1; mode=block<br>X-Content-Type-Options: nosniff<br>X-Download-Options: noopen<br>X-Permitted-Cross-Domain-Policies: none<br>Referrer-Policy: strict-origin-when-cross-origin<br>Authorization: Sfzs4TJmnwzEoyYvdS2tCym_1-ULgQ<br>Content-Type: application/json; charset=utf-8<br>Etag: W/&quot;68f9ed98a7bc50efdfafc36402ba538b&quot;<br>Cache-Control: max-age=0, private, must-revalidate<br>Set-Cookie: _logivan_api_session=iMyw8AkijeYY0gpwgzF%2FvbBuKGa1PoYb9QfFX413EErcoufy5Gk0p6u%2Fm2u3n49bd0algBwChmstakBCvaiw0OrJ0PSZU0gQjFdFKlk6F5PaDVa%2BWHBCNOKnD61CxiSPanSVcd319Z3vepAiG5gIVIoJees%3D--olO7Culyw3xUAwDW--0fOhx12hIyOGKOkiRGepXA%3D%3D; path=/; HttpOnly<br>X-Request-Id: 120cadd4-ca2f-40e0-92be-02ab6a12beec<br>X-Runtime: 0.575202<br>Vary: Origin<br>Transfer-Encoding: chunked<br>Via: 1.1 vegur</pre>
+                                        <h4>Response Body</h4>
+                                            <pre>{<br>    &quot;driver&quot;: {<br>        &quot;is_success&quot;: true,<br>        &quot;messages&quot;: &quot;Đăng nhập thành công&quot;,<br>        &quot;data&quot;: {<br>            &quot;user&quot;: {<br>                &quot;id&quot;: 24694,<br>                &quot;name&quot;: &quot;Mai Thu Hai&quot;,<br>                &quot;phone_number&quot;: &quot;+84983117994&quot;,<br>                &quot;email&quot;: null,<br>                &quot;address&quot;: null,<br>                &quot;date_of_birth&quot;: null,<br>                &quot;license_id&quot;: &quot;222109995&quot;,<br>                &quot;license_date&quot;: &quot;2022-05-27T00:00:00.000+07:00&quot;,<br>                &quot;identity_id&quot;: null,<br>                &quot;identity_date&quot;: null,<br>                &quot;business_registration&quot;: null,<br>                &quot;transportation_permit&quot;: null,<br>                &quot;status&quot;: &quot;approved&quot;,<br>                &quot;company_name&quot;: null,<br>                &quot;identity_id_url&quot;: &quot;https://firebasestorage.googleapis.com/v0/b/logivan-driver-development.appspot.com/o/identity_photos%2F1557992548857?alt=media&amp;token=b4724a05-04e8-4246-b238-a71f340f8d6e&quot;,<br>                &quot;business_registration_url&quot;: null,<br>                &quot;transportation_permit_url&quot;: null,<br>                &quot;created_at&quot;: &quot;2019-09-11T14:12:17.803+07:00&quot;,<br>                &quot;updated_at&quot;: &quot;2019-09-20T11:31:23.152+07:00&quot;,<br>                &quot;can_tax_invoice_issued&quot;: false,<br>                &quot;notes&quot;: null,<br>                &quot;license_url&quot;: &quot;https://firebasestorage.googleapis.com/v0/b/logivan-driver-development.appspot.com/o/identity_photos%2F1557992551934?alt=media&amp;token=42a4d862-fe55-4237-8fc8-cb0c5a9142af&quot;,<br>                &quot;prospect_driver_id&quot;: null,<br>                &quot;current_company_id&quot;: null,<br>                &quot;hidden&quot;: false,<br>                &quot;bid_times_count&quot;: 77,<br>                &quot;order_inquiries_count&quot;: 0,<br>                &quot;certificate_registry_url&quot;: null,<br>                &quot;smr_version&quot;: &quot;2.0c&quot;,<br>                &quot;referral_id&quot;: null,<br>                &quot;approved_referee_count&quot;: 0,<br>                &quot;referrals_count&quot;: 0,<br>                &quot;rewarded_count&quot;: 0,<br>                &quot;certificate_registry_plate&quot;: null,<br>                &quot;certificate_registry_date&quot;: null,<br>                &quot;broker_call_logs_count&quot;: 0,<br>                &quot;activities_count&quot;: 0,<br>                &quot;is_company&quot;: false,<br>                &quot;source&quot;: null,<br>                &quot;manager_id&quot;: null,<br>                &quot;verified_at&quot;: &quot;2019-09-11T14:13:16.432+07:00&quot;,<br>                &quot;shipments_count&quot;: 146,<br>                &quot;avatar_url&quot;: null,<br>                &quot;rejected_at&quot;: null,<br>                &quot;broker_reviews_count&quot;: 18,<br>                &quot;ops_reviews_count&quot;: 0,<br>                &quot;latest_call_log_id&quot;: null,<br>                &quot;locked&quot;: false,<br>                &quot;locked_reason&quot;: null,<br>                &quot;authentication_token&quot;: &quot;&quot;,<br>                &quot;roles&quot;: [<br>                    <br>                ],<br>                &quot;user_roles&quot;: [<br>                    <br>                ]<br>            }<br>        },<br>        &quot;is_new_user&quot;: null<br>    }<br>}</pre>
+                                            <h4>Response Cookies</h4>
+                                            <pre>_logivan_api_session=iMyw8AkijeYY0gpwgzF%2FvbBuKGa1PoYb9QfFX413EErcoufy5Gk0p6u%2Fm2u3n49bd0algBwChmstakBCvaiw0OrJ0PSZU0gQjFdFKlk6F5PaDVa%2BWHBCNOKnD61CxiSPanSVcd319Z3vepAiG5gIVIoJees%3D--olO7Culyw3xUAwDW--0fOhx12hIyOGKOkiRGepXA%3D%3D;Path=/;HttpOnly</pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </span>
+                            </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+                        </table>
+                    </td>
+                <tr>
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-FAILURE">
+                    <td width="50" class="step-icon">
+                        <a name="3"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection3 failure-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block;">
+                                <span class="top-level-step">
+                                When broker should be able to create new market place order with truck_quantity = 5
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">FAILURE</span></td>
+                    <td width="100"><span class="top-level-step">3.03s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection3" style="display:none; width:100%">
+
+                <tr class="test-FAILURE">
+                    <td width="50" class="step-icon">
+                        <a name="3-2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3-2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection3-2 failure-icon"
+                                   style="margin-left: 40px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3-2')"
+                               style="display:block;">
+                                <span class="nested-step">
+                                Should be able to create new market place order with truck quantity: 5
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">3s</span></td>
+                </tr>
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.lang.AssertionError: Create new order error: {&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;} - STOP APP</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-11""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-11">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>lgv.automation.util.Log.errorAndStop(Log.java:30)<br />lgv.automation.steps.api.BrokerSteps.createNewMarketPlaceOrderWithTruckQuantity(BrokerSteps.java:579)<br />lgv.automation.steps.api.BrokerSteps.shouldBeAbleToCreateNewMarketPlaceOrderWithTruckQuantity(BrokerSteps.java:1270)<br />lgv.automation.serenityCucumber.api.features.steps.broker.CreateNewOrder.create_new_marketplace_order_with_truck_quantity_success(CreateNewOrder.java:32)<br />cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)<br />cucumber.runner.TestStep.executeStep(TestStep.java:63)<br />cucumber.runner.TestStep.run(TestStep.java:49)<br />cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)<br />cucumber.runner.TestCase.run(TestCase.java:44)<br />cucumber.runner.Runner.runPickle(Runner.java:40)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                        </td>
+                    </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection3-2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="3-2-2"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                POST https://logivan-testbed1.herokuapp.com/broker/api/v1/orders
+                            </span>
+                            <span class="evidence">
+                                    <span class="piece-of-evidence">
+                        <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                            data-target="#restModal-REST-12">
+                        REST Query
+                    </button>
+                </span>
+                        <!-- Modal -->
+                        <div class="rest-query-details">
+                            <div class="collapse multi-collapse" id="restModal-REST-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>Response</h4>
+                                            <p>Status code: 500</p>
+                                            <p>Content Type: application/json</p>
+                                            <h4>Request Headers</h4>
+                                            <pre>DeviceId=android<br>Platform=android<br>Authorization=Bearer zXX4D3jgnKXQSHSDyAKF5GxdmYs5sQ<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                            <h4>Content Body</h4>
+                                            <pre>{<br>    &quot;order&quot;: {<br>        &quot;order_type&quot;: &quot;marketplace&quot;,<br>        &quot;images&quot;: [<br>            {<br>                &quot;url&quot;: &quot;https://firebasestorage.googleapis.com/v0/b/logivan-salestool-testbed1.appspot.com/o/test%2F%5Border%5D%5B%5D%5Bundefined%5D_TvVWM.jpg?alt=media&amp;token=b8f1e133-11be-48df-ab40-e7eb300e48a4&quot;<br>            }<br>        ],<br>        &quot;is_insurance_requested&quot;: true,<br>        &quot;hide_contact&quot;: true,<br>        &quot;is_tax_invoice_requested&quot;: true,<br>        &quot;is_whole_truck&quot;: true,<br>        &quot;is_share_truck&quot;: true,<br>        &quot;truck_quantity&quot;: &quot;5&quot;,<br>        &quot;truck_type_id&quot;: 5,<br>        &quot;truck_model_id&quot;: 42,<br>        &quot;pickup_datetime&quot;: &quot;2029-06-08T10:11:00+07:00&quot;,<br>        &quot;dropoff_datetime&quot;: &quot;2029-06-08T10:11:00+07:00&quot;,<br>        &quot;cargo_weight&quot;: &quot;4&quot;,<br>        &quot;cargo_types&quot;: &quot;Vật liệu xây dựng&quot;,<br>        &quot;cargo_length&quot;: &quot;3&quot;,<br>        &quot;cargo_width&quot;: &quot;1&quot;,<br>        &quot;cargo_height&quot;: &quot;1&quot;,<br>        &quot;offer_price&quot;: 800000,<br>        &quot;customer_id&quot;: 12667,<br>        &quot;notes&quot;: &quot;hàng của mị mắc lắm&quot;,<br>        &quot;internal_notes&quot;: &quot;Chúng tôi không có gì ngoài điều kiện&quot;,<br>        &quot;pickup_locations_attributes&quot;: [<br>            {<br>                &quot;city&quot;: &quot;Hà Nội&quot;,<br>                &quot;area_id&quot;: &quot;3&quot;,<br>                &quot;address&quot;: &quot;Ba Vi Resort, Vườn Quốc Gia Ba Vì, Ba Vì, Hà Nội, Việt Nam&quot;,<br>                &quot;description&quot;: &quot;Ba Vi Resort, Vườn Quốc Gia Ba Vì, Ba Vì, Hà Nội, Việt Nam&quot;,<br>                &quot;value&quot;: &quot;ChIJP8aQu-9gNDERj76ZokcaJXE&quot;,<br>                &quot;lat&quot;: 21.0849806,<br>                &quot;lng&quot;: 105.37356380000006<br>            }<br>        ],<br>        &quot;dropoff_locations_attributes&quot;: [<br>            {<br>                &quot;city&quot;: &quot;Hồ Chí Minh&quot;,<br>                &quot;area_id&quot;: &quot;5&quot;,<br>                &quot;address&quot;: &quot;Binh Chanh Market, Quốc lộ 1A, x. Bình Chánh, Bình Chánh, Hồ Chí Minh, Việt Nam&quot;,<br>                &quot;description&quot;: &quot;Binh Chanh Market, Quốc lộ 1A, x. Bình Chánh, Bình Chánh, Hồ Chí Minh, Việt Nam&quot;,<br>                &quot;value&quot;: &quot;ChIJT7f8qwIzdTER7iIC0KXQCZg&quot;,<br>                &quot;lat&quot;: 10.6658461,<br>                &quot;lng&quot;: 106.57159590000003<br>            }<br>        ]<br>    }<br>}</pre>
+                                            <h4>Response Headers</h4>
+                                            <pre>Server: Cowboy<br>Date: Fri, 20 Sep 2019 04:31:27 GMT<br>Connection: keep-alive<br>Content-Type: application/json; charset=UTF-8<br>X-Request-Id: b136d6e5-6151-4db3-bd52-1f21b0ed4a2a<br>X-Runtime: 0.311630<br>Vary: Origin<br>Content-Length: 46<br>Via: 1.1 vegur</pre>
                                         <h4>Response Body</h4>
                                             <pre>{<br>    &quot;status&quot;: 500,<br>    &quot;error&quot;: &quot;Internal Server Error&quot;<br>}</pre>
                                     </div>
@@ -341,60 +677,6 @@
                         </table>
                     </td>
                 <tr>
-                <tr class="test-SKIPPED">
-                    <td width="50" class="step-icon">
-                        <a name="1"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                                <span class="top-level-step">
-                                Given driver 1 should be able to sign in driver app
-                            </span>
-                            <span class="evidence">
-                            </span>
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">0s</span></td>
-                </tr>
-                <tr class="test-SKIPPED">
-                    <td width="50" class="step-icon">
-                        <a name="2"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                                <span class="top-level-step">
-                                And driver 2 should be able to sign in driver app
-                            </span>
-                            <span class="evidence">
-                            </span>
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">0s</span></td>
-                </tr>
-                <tr class="test-SKIPPED">
-                    <td width="50" class="step-icon">
-                        <a name="3"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                                <span class="top-level-step">
-                                When broker should be able to create new market place order with truck_quantity = 5
-                            </span>
-                            <span class="evidence">
-                            </span>
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">0s</span></td>
-                </tr>
                 <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
                         <a name="4"/>
@@ -501,7 +783,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
                 <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
@@ -537,7 +819,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
                 <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
@@ -555,7 +837,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
                 <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
@@ -573,7 +855,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">0.11s</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
                 <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
@@ -591,7 +873,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">0.03s</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
                 <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
@@ -614,7 +896,7 @@
                 <tr class="test-FAILURE">
                         <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>14.94s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>31.81s</em></span></td>
                 </tr>
 
             </table>
