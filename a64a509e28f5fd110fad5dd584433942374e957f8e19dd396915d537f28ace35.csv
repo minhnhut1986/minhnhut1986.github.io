@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Hydra - Marketplace order on ops tool","Full flow marketplace order happy case","SUCCESS","2019-09-20T11:29:18.78+07:00[Asia/Ho_Chi_Minh]","0.0","113.14"
-"Hydra - Marketplace order on ops tool","Full flow marketplace order happy case with multiple drivers","FAILURE","2019-09-20T11:31:11.931+07:00[Asia/Ho_Chi_Minh]","0.0","31.81"
+"Hydra - Marketplace order on ops tool","Full flow marketplace order happy case","SUCCESS","2019-09-23T11:09:37.151Z[GMT]","0.0","103.22"
+"Hydra - Marketplace order on ops tool","Full flow marketplace order happy case with multiple drivers","SUCCESS","2019-09-23T11:11:20.383Z[GMT]","0.0","149.99"

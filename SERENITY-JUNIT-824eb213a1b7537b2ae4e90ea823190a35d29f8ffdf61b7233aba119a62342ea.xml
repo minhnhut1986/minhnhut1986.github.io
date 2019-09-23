@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Hydra - Marketplace order on ops tool" skipped="0" tests="2" time="144.95" timestamp="2019-09-20 11:29:18"><testcase name="Full flow marketplace order happy case"/><testcase name="Full flow marketplace order happy case with multiple drivers"><failure message="Create new order error: {&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;} - STOP APP" type="java.lang.AssertionError">Create new order error: {"status":500,"error":"Internal Server Error"} - STOP APP</failure><system-err>Create new order error: {"status":500,"error":"Internal Server Error"} - STOP APP
-lgv.automation.util.Log.errorAndStop(Log.java:30)
-lgv.automation.steps.api.BrokerSteps.createNewMarketPlaceOrderWithTruckQuantity(BrokerSteps.java:579)
-lgv.automation.steps.api.BrokerSteps.shouldBeAbleToCreateNewMarketPlaceOrderWithTruckQuantity(BrokerSteps.java:1270)
-lgv.automation.serenityCucumber.api.features.steps.broker.CreateNewOrder.create_new_marketplace_order_with_truck_quantity_success(CreateNewOrder.java:32)
-✽.broker should be able to create new market place order with truck_quantity = 5(src/test/resources/features/api/smokeTests/marketPlaceOrderOnOpsTool.feature:26)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Marketplace order on ops tool" skipped="0" tests="2" time="253.21" timestamp="2019-09-23 11:09:37"><testcase name="Full flow marketplace order happy case"/><testcase name="Full flow marketplace order happy case with multiple drivers"/></testsuite>
