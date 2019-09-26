@@ -28,14 +28,15 @@
 <!--[if IE 7]>
 <!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
 
-<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
-<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
 
 <!-- JQuery -->
-<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
 <link rel="stylesheet" href="chartist/dist/chartist.min.css">
 <script src="chartist/dist/chartist.min.js"></script>
-<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
 <link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
 
 <!-- Required Javascript -->
@@ -95,10 +96,7 @@
     <div id="topbanner">
         <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
-            <span class="projectname">
-                <span class="projecttitle"></span>
-                <span class="projectsubtitle"></span>
-            </span>
+            <span class="projectname"></span>
         </div>
     </div>
 </div>
@@ -126,17 +124,8 @@
         <li >
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
-        <li >
-            <a href="dafb266f68444cb7f2451c923d70c1428ac45470c361842b818e6daa9bcd4fa8.html"><i class="fa fa-comments-o"></i> Themes</a>
-        </li>
-        <li >
-            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
-        </li>
-        <li >
-            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
-        </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-09-2019 17:21</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-03-2019 12:53</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -152,8 +141,8 @@
                             <div class="test-count-summary">
                                 <div>
 
-                                6 passing tests
-                                    across 6 scenarios
+                                1 passing test
+                                    across 1 scenario
 
                                      |
                                         <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" title="Download CSV"> <i class="fa fa-download"
@@ -192,7 +181,7 @@
                                                                 var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 6}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -249,7 +238,7 @@
                                                                         <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                                <td class="automated-stats">6</td>
+                                                                <td class="automated-stats">1</td>
                                                                 <td class="automated-stats">100%</td>
                                                             </tr>
                                                             <tr>
@@ -274,9 +263,10 @@
                                                                 <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
-                                                                            <td colspan="3"><i
-                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
-                                                                            </td>
+                                                                    <td colspan="3"><a
+                                                                            href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html"><i
+                                                                            class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                    </td>
                                                             </tr>
                                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
@@ -302,7 +292,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">6</td>
+                                                                <td class="automated-stats">1</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -317,16 +307,12 @@
 
                                                         <div class="card">
                                                             <div class="card-body">
+                                                                <h5 class="card-title">Story</h5>
                                                                 <div>
-                                                                    <a href="255d045d2a2ffbedea779a5e7837c58c12b8f157f3dd43e4fe55ed2e4cd8ceb8.html">
+                                                                    <a href="eb8604cf3fbf4bf739dd75609bc13df09c59dcb7c8a135af0dba27ae72be50a7.html">
                                                                         <span class="badge"
                                                                               style="background-color:#1D9918; margin:1em;padding:4px;"><i
-                                                                                class="fa fa-tag"></i> Deletenewdriver&nbsp;&nbsp;&nbsp;1</span>
-                                                                    </a>
-                                                                    <a href="37397ff6321efa8f010e44a5b9c87a4f209ab237e51263533305ce339e1da3bd.html">
-                                                                        <span class="badge"
-                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
-                                                                                class="fa fa-tag"></i> Deleteneworder&nbsp;&nbsp;&nbsp;5</span>
+                                                                                class="fa fa-tag"></i> Ui/Order Creation&nbsp;&nbsp;&nbsp;1</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -344,7 +330,7 @@
                                             <table class="scenario-result-table table" id="scenario-results">
                                                 <thead>
                                                 <tr>
-                                                    <th>feature</th>
+                                                    <th>Feature</th>
                                                     <th class="test-name-column">Scenario</th>
                                                     <th>Steps</th>
                                                     <th>Start Time</th>
@@ -355,79 +341,14 @@
                                                 <tbody>
                                                 <tr class="scenario-result SUCCESS">
                                                     <td>
-                                                            <a href="37f26561cb38dd08310f04ca8a757797ccf8b264066f62d07c7ba17371d72e61.html">Driver on-boarding</a>
+                                                            <a href="eb8604cf3fbf4bf739dd75609bc13df09c59dcb7c8a135af0dba27ae72be50a7.html">Order creation</a>
                                                     </td>
                                                     <td>
-                                                        <a href="f960dd330c7b37cac5c57f957dfc7df4eea997312b9e81926b622516b0da2748.html">Create new driver</a>
+                                                        <a href="37ea1c85f75d09659869e1ad18c92b3ef5050b5ceba226e5fae41824865c26d4.html">Test</a>
                                                     </td>
-                                                    <td>18</td>
-                                                    <td>17:06:26</td>
-                                                    <td>01:40</td>
-                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="f1df1ab6555169308c2e3277fc977e256286e3f76ff47b58d7cbc70e29a27229.html">Hydra - Hybrid order on app</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="49007b04a88b3de8b43e04f9eaf5589b77342123e2e4df2c41ec93ccb02b9606.html">Full flow hybrid order happy case with one driver</a>
-                                                    </td>
-                                                    <td>18</td>
-                                                    <td>17:08:06</td>
-                                                    <td>02:06</td>
-                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="f1df1ab6555169308c2e3277fc977e256286e3f76ff47b58d7cbc70e29a27229.html">Hydra - Hybrid order on app</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="57fd8a3beded858cda15b23a845fb2650c2d65b917855441238fc4683fafb16d.html">Full flow hybrid order happy case with multiple driver</a>
-                                                    </td>
-                                                    <td>23</td>
-                                                    <td>17:10:12</td>
-                                                    <td>03:25</td>
-                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="609055a6d84b6221765c766eb14e6738fe095ac09b0ebe7dca7144a0d6e1ef3d.html">Hydra - Marketplace order on app</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="60a7d6c51257016ce59f37cd205aaa146024ca31b2be8687463d4f85c2ecf052.html">Driver should be able to bidding new order when drivers of this order reject new offer</a>
-                                                    </td>
-                                                    <td>11</td>
-                                                    <td>17:13:37</td>
-                                                    <td>01:57</td>
-                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="165b45cfa81d5828b61477b3306ba38443dacb4701aeaa9b7b3783f350d3a02b.html">Hydra - Marketplace order on ops tool</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="824eb213a1b7537b2ae4e90ea823190a35d29f8ffdf61b7233aba119a62342ea.html">Full flow marketplace order happy case</a>
-                                                    </td>
-                                                    <td>14</td>
-                                                    <td>17:16:29</td>
-                                                    <td>01:51</td>
-                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="165b45cfa81d5828b61477b3306ba38443dacb4701aeaa9b7b3783f350d3a02b.html">Hydra - Marketplace order on ops tool</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="850019d1cb588f811ce250134655b8bbd2e838af3c580cc92e5280c21be33dc6.html">Full flow marketplace order happy case with multiple drivers</a>
-                                                    </td>
-                                                    <td>16</td>
-                                                    <td>17:18:21</td>
-                                                    <td>02:39</td>
+                                                    <td>2</td>
+                                                    <td>12:49:27</td>
+                                                    <td>03:15</td>
                                                     <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
                                                             style="display:none">SUCCESS</span></td>
                                                 </tr>
@@ -461,7 +382,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-12">
-            <span class="version">Serenity BDD version 2.0.65</span>
+            <span class="version">Serenity BDD version 2.0.30</span>
         </div>
     </div>
 </div>

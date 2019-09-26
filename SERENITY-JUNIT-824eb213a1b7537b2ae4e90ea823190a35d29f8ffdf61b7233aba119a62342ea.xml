@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Marketplace order on ops tool" skipped="0" tests="2" time="271.32" timestamp="2019-09-26 05:16:29"><testcase name="Full flow marketplace order happy case"/><testcase name="Full flow marketplace order happy case with multiple drivers"/></testsuite>
