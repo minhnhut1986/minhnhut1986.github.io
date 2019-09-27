@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Driver on-boarding" skipped="0" tests="1" time="30.59" timestamp="2019-09-27 03:12:28"><testcase name="Create new driver"><failure message="Add truck error: {&quot;_error&quot;:&quot;Không tạo được xe mới&quot;,&quot;errors&quot;:{&quot;base&quot;:[&quot;Có các lỗi sau: Biển số xe đã trùng với tài xế #24541&quot;]}} - STOP APP" type="java.lang.AssertionError">Add truck error: {"_error":"Không tạo được xe mới","errors":{"base":["Có các lỗi sau: Biển số xe đã trùng với tài xế #24541"]}} - STOP APP</failure><system-err>Add truck error: {"_error":"Không tạo được xe mới","errors":{"base":["Có các lỗi sau: Biển số xe đã trùng với tài xế #24541"]}} - STOP APP
-lgv.automation.util.Log.errorAndStop(Log.java:30)
-lgv.automation.steps.api.DriverSteps.addTruck(DriverSteps.java:480)
-lgv.automation.steps.api.DriverSteps.shouldBeAbleToAddTruck(DriverSteps.java:1000)
-lgv.automation.serenityCucumber.api.features.steps.driver.AddTruck.driver_adds_new_truck(AddTruck.java:20)
-✽.driver adds new truck that has truck_type_id = 5, truck_model_id = 42(src/test/resources/features/api/smokeTests/driverOnboarding.feature:8)
-</system-err></testcase></testsuite>

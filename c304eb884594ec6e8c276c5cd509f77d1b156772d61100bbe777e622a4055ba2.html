@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <title>Requirements</title>
+    <title>Features</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -103,7 +103,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Api","type":"theme","href":"097b48750ce2987b1b8c5e1601936339bb36214e1269675cfdfc5a35c6b9f8f9.html","nodes":[{"text":"Acceptance tests","type":"theme","href":"a6074ced02a95fcfd5f91639baa4a4c1f9f9039befca8e980fd7f701bfd8efaf.html","nodes":[{"text":"Driver","type":"capability","href":"ff440bf8ded8b6b6e85352962d019b1f58b1cd8b523d6eafc170bf1ad4d59089.html","nodes":[{"text":"Hydra trucker app acceptance test","type":"feature","href":"eed07f658e65b1ea56d9878e30609d2ac205fe9cd9cd8be0f9103e1551cf1612.html","nodes":[],"selectable":false,"tags":["",""]},{"text":"Driver sign in","type":"feature","href":"c304eb884594ec6e8c276c5cd509f77d1b156772d61100bbe777e622a4055ba2.html","nodes":[],"selectable":false,"tags":["\u003ci class\u003d\u0027far fa-stop-circle pending-icon \u0027 title\u003d\u0027PENDING\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ci class\u003d\u0027far fa-stop-circle pending-icon \u0027 title\u003d\u0027PENDING\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 features\u003c/span\u003e"]},{"text":"Ops tool","type":"capability","href":"81a77a34471348e87241dd5ef783727b65845bbe37c18f542b4c4d719a86f9ba.html","nodes":[{"text":"Hydra ops tool acceptance test","type":"feature","href":"81040bf5279a51f9f98b868f6691583936bf75b09492361e6c51b7b4963e61a4.html","nodes":[],"selectable":false,"tags":["",""]}],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 feature\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ci class\u003d\u0027far fa-stop-circle pending-icon \u0027 title\u003d\u0027PENDING\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 capabilities\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ci class\u003d\u0027far fa-stop-circle pending-icon \u0027 title\u003d\u0027PENDING\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 theme\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Driver sign in","type":"feature","href":"c304eb884594ec6e8c276c5cd509f77d1b156772d61100bbe777e622a4055ba2.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -148,7 +148,12 @@
             <span class="breadcrumbs">
             <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
 
+                > <a href="097b48750ce2987b1b8c5e1601936339bb36214e1269675cfdfc5a35c6b9f8f9.html">Api</a>
+                > <a href="a6074ced02a95fcfd5f91639baa4a4c1f9f9039befca8e980fd7f701bfd8efaf.html">Acceptance Tests</a>
+                > <a href="ff440bf8ded8b6b6e85352962d019b1f58b1cd8b523d6eafc170bf1ad4d59089.html">Driver</a>
 
+
+                > <span class="truncate-40">Driver Sign In</span>
 
             </span>
         </div>
@@ -163,8 +168,8 @@
         <li >
             <a href="index.html"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
         </li>
-        <li class="active">
-            <a href="#"><i class="fa fa-book"></i> Requirements</a>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
         <li >
             <a href="dafb266f68444cb7f2451c923d70c1428ac45470c361842b818e6daa9bcd4fa8.html"><i class="fa fa-comments-o"></i> Themes</a>
@@ -172,8 +177,8 @@
         <li >
             <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
         </li>
-        <li >
-            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        <li class="active">
+            <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
     <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2019 03:54</span>
@@ -185,6 +190,37 @@
     <div id="beforetable"></div>
     <div id="results-dashboard">
         <div class="table">
+                <div class=row">
+                    <div class="col-sm-12">
+                        <div>
+                            <div clas="table">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                    <span>
+                                            <h2><i class="fa fa-book"></i> Feature:  Driver Sign In</h2>
+                                        </span>
+                                </div>
+                                    <div class="col-sm-4">
+                                        <span class="feature-tags">
+                                                <p class="tag">
+                                                    <span class="badge tag-badge" style="background:default;">
+                                                        <i class="fa fa-tag"></i>&nbsp;<a class="tagLink"
+                                                                                          style="background:default;"
+                                                                                          href="5d3b0a6618cea6736e10b8407424e3e4a14611fdabe712cd2d6a286b2e917116.html">Deletedriver
+                                                        (tag)</a>
+                                                    </span>
+                                                </p>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="requirementNarrativeTitle">
+                                
+                            </div>
+
+                        </div>
+                    </div>
 
 
             <div class="row">
@@ -208,10 +244,67 @@
                                     <div class="row">
                                         <div class="col-sm-12">
 
-                                            <h3>Requirements Overview</h3>
 
-                                            <div id="tree"></div>
+                                            <h3>Scenarios</h3>
 
+                                            <div id="toc">
+                                                <table class="table" id="toc-table">
+                                                        <tr>
+                                                            <td style="width:95%;" class="toc-title">
+                                                                <a href="#c44b15b856da12ad157bf85ebda45fec113f190d336332feb7773a2c68eb4d0a" title="View scenario details" >Sign in driver app.</a>
+
+
+                                                            </td>
+                                                            <td style="width:5%;">
+                                                                <table>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                               href="d763631fbc0b5230292759949e3053dd9ef1bf7c9a8d48be521996f634249da3.html"
+                                                                               title="View test results">
+                                                                            <i class='far fa-stop-circle pending-icon ' title='PENDING'></i>
+                                                                            </a>
+
+                                                                        
+                                                                        </td>
+                                                                        <td>
+                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                               href="d763631fbc0b5230292759949e3053dd9ef1bf7c9a8d48be521996f634249da3.html"
+                                                                               title="View test results">
+                                                                                <i class="fas fa-search-plus"></i>
+                                                                            </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                </table>
+
+                                            </div>
+
+                                            <h3>Scenario details</h3>
+
+                                                <div class="scenario-docs card" id="c44b15b856da12ad157bf85ebda45fec113f190d336332feb7773a2c68eb4d0a">
+                                                    <div class="scenario-docs card-header pending" style="min-height:1.5em;">
+                                                        <div>
+                                                            <span class="scenario-heading">
+                                                                <a href="d763631fbc0b5230292759949e3053dd9ef1bf7c9a8d48be521996f634249da3.html" title="View test results">Sign in driver app.</a>
+                                                            </span>
+                                                            <span class="scenario-result-icon">
+                                                                
+
+                                                                    <i class='far fa-stop-circle pending-icon ' title='PENDING'></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="scenario-docs card-body">
+                                                            <p>Given ops manager creates a new driver</p>
+                                                            <p>When driver should able to sign in driver app</p>
+                                                        <div class="examples">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
                                         </div>
                                     </div>
                                 </div>
@@ -275,7 +368,7 @@
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count">
-                                                                        <a href="bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html"><i
+                                                                        <a href="a91603d757b14c23e75f1a5e38faa00c5f84a247b27a3e783ecc78f6909a0ec7.html"><i
                                                                                 class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending</a>
                                                                     </td>
                                                 <td class="automated-stats">1</td>
@@ -362,166 +455,11 @@
 
                                         <div class="row">
                                             <div class="col-sm-12">
-                                                <h3><i class="fas fa-clipboard-check"></i> Functional Coverage</h3>
-
-
-
-<h4 class="requireent-type-heading">Themes</h4>
-
-<table class="scenario-result table" id="req-results-table">
-    <thead>
-        <tr>
-            <th class="requirement-name-column" width="60%">Theme</th>
-            <th>ID</th>
-            <th>Automated Tests</th>
-                <th>Manual Tests</th>
-            <th>Results</th>
-            <th>Coverage</th>
-        </tr>
-    </thead>
-    <tbody>
-
-
-        <tr>
-
-
-            <td> 
-                <a href="097b48750ce2987b1b8c5e1601936339bb36214e1269675cfdfc5a35c6b9f8f9.html">Api</a></span>
-            </td>
-            <td> 
-                
-            </td>
-            <td>1</td>
-            <td>0</td>
-            <td>
-                <span class="status_icon"><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></span>
-                <span style="display:none">2</span>
-            </td>
-
-            <td width="165px" style="padding:0px;">
-
-
-<table>
-    <tr>
-        <td width="40px" style="padding-top:4px;">
-            <div class="small" style="text-align:right;">0%</div>
-        </td>
-        <td style="min-width:12.5em;">
-            <div class="progress">
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:#30cb23;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="1"
-                     title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 100%; background-color:#A2C4EC;"
-                     aria-valuenow="1"
-                     aria-valuemin="0"
-                     aria-valuemax="1"
-                     title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:darkgrey;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="1"
-                     title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:#EEE098;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="1"
-                     title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:#f8001f;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="1"
-                     title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:darkorange;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="1"
-                     title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:fuchsia;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="1"
-                     title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-            </td>
-
-        </tr>
-    </tbody>
-</table>
-
-
-
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-sm-12">
                                                 <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
                                             <table class="scenario-result-table table" id="scenario-results">
                                                 <thead>
                                                 <tr>
-                                                    <th>feature</th>
                                                     <th class="test-name-column">Scenario</th>
                                                     <th>Steps</th>
                                                     <th>Start Time</th>
@@ -532,14 +470,11 @@
                                                 <tbody>
                                                 <tr class="scenario-result PENDING">
                                                     <td>
-                                                            <a href="c304eb884594ec6e8c276c5cd509f77d1b156772d61100bbe777e622a4055ba2.html">Driver sign in</a>
-                                                    </td>
-                                                    <td>
                                                             <a href="d763631fbc0b5230292759949e3053dd9ef1bf7c9a8d48be521996f634249da3.html">Sign in driver app.</a>
                                                     </td>
                                                     <td>2</td>
-                                                    <td>03:54:56</td>
-                                                    <td>00:11</td>
+                                                    <td> </td>
+                                                    <td> </td>
                                                     <td>
                                                             <i class='far fa-stop-circle pending-icon ' title='PENDING'></i> <span
                                                                 style="display:none">PENDING</span>
