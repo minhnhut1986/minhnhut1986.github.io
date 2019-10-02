@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Hydra - Hybrid order on app" skipped="0" tests="2" time="159.22" timestamp="2019-10-02 09:37:52"><testcase name="Full flow hybrid order happy case with one driver"/><testcase name="Full flow hybrid order happy case with multiple driver"><failure message="Bidding error:  - STOP APP" type="java.lang.AssertionError">Bidding error:  - STOP APP</failure><system-err>Bidding error:  - STOP APP
-lgv.automation.util.Log.errorAndStop(Log.java:30)
-lgv.automation.steps.api.OpsToolSteps.bidding(OpsToolSteps.java:814)
-lgv.automation.steps.api.OpsToolSteps.shouldBeAbleToBiddingOnHydra(OpsToolSteps.java:958)
-lgv.automation.serenityCucumber.api.features.steps.opsTool.Bidding.bidding_by_ops_tool(Bidding.java:44)
-✽.ops manager bidding "new" order for driver 3 with truck_quantity = 3(src/test/resources/features/api/smokeTests/hybridOrderOnApp.feature:39)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Hybrid order on app" skipped="0" tests="2" time="242.59" timestamp="2019-10-02 11:40:37"><testcase name="Full flow hybrid order happy case with one driver"/><testcase name="Full flow hybrid order happy case with multiple driver"/></testsuite>
