@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Hydra - Hybrid order on app" skipped="0" tests="2" time="13.01" timestamp="2019-10-03 09:58:27"><testcase name="Full flow hybrid order happy case with one driver"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0
-lgv.automation.steps.api.DriverSteps.shouldBeAbleToSignIn(DriverSteps.java:824)
-lgv.automation.serenityCucumber.api.features.steps.driver.SignIn.driver_should_able_to_sign_in_on_driver_app(SignIn.java:36)
-✽.driver should be able to sign in driver app(src/test/resources/features/api/smokeTests/hybridOrderOnApp.feature:8)
-</system-err></testcase><testcase name="Full flow hybrid order happy case with multiple driver"><error message="Index: 1, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 1, Size: 0</error><system-err>Index: 1, Size: 0
-lgv.automation.serenityCucumber.api.features.steps.driver.SignIn.driver_should_able_to_sign_in_on_driver_app(SignIn.java:43)
-✽.driver 1 should be able to sign in driver app(src/test/resources/features/api/smokeTests/hybridOrderOnApp.feature:28)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Hybrid order on app" skipped="0" tests="2" time="263.61" timestamp="2019-10-03 03:20:42"><testcase name="Full flow hybrid order happy case with one driver"/><testcase name="Full flow hybrid order happy case with multiple driver"/></testsuite>

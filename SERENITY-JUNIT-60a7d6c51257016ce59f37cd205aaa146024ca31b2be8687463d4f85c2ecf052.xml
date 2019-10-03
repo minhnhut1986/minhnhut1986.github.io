@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Hydra - Marketplace order on app" skipped="0" tests="2" time="10.18" timestamp="2019-10-03 09:58:40"><testcase name="Driver should be able to bidding new order when drivers of this order reject new offer"><error message="Index: 1, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 1, Size: 0</error><system-err>Index: 1, Size: 0
-lgv.automation.serenityCucumber.api.features.steps.driver.SignIn.driver_should_able_to_sign_in_on_driver_app(SignIn.java:43)
-✽.driver 1 should be able to sign in driver app(src/test/resources/features/api/smokeTests/marketPlaceOrderOnApp.feature:8)
-</system-err></testcase><testcase name="Full flow marketplace order happy case with multiple drivers"><error message="Index: 1, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 1, Size: 0</error><system-err>Index: 1, Size: 0
-lgv.automation.serenityCucumber.api.features.steps.driver.SignIn.driver_should_able_to_sign_in_on_driver_app(SignIn.java:43)
-✽.driver 1 should be able to sign in driver app(src/test/resources/features/api/smokeTests/marketPlaceOrderOnApp.feature:21)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Marketplace order on app" skipped="0" tests="2" time="205.09" timestamp="2019-10-03 03:25:06"><testcase name="Driver should be able to bidding new order when drivers of this order reject new offer"/><testcase name="Full flow marketplace order happy case with multiple drivers"/></testsuite>

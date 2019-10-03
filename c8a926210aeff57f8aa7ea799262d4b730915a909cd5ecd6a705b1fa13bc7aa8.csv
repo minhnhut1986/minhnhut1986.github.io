@@ -1,7 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Hydra - Hybrid order on app","Full flow hybrid order happy case with one driver","ERROR","2019-10-03T09:58:27.304+07:00[Asia/Ho_Chi_Minh]","0.0","8.12"
-"Hydra - Hybrid order on app","Full flow hybrid order happy case with multiple driver","ERROR","2019-10-03T09:58:35.517+07:00[Asia/Ho_Chi_Minh]","0.0","4.89"
-"Hydra - Marketplace order on app","Driver should be able to bidding new order when drivers of this order reject new offer","ERROR","2019-10-03T09:58:40.415+07:00[Asia/Ho_Chi_Minh]","0.0","5.37"
-"Hydra - Marketplace order on app","Full flow marketplace order happy case with multiple drivers","ERROR","2019-10-03T09:58:45.79+07:00[Asia/Ho_Chi_Minh]","0.0","4.82"
-"Hydra - Marketplace order on ops tool","Full flow marketplace order happy case","ERROR","2019-10-03T09:58:50.611+07:00[Asia/Ho_Chi_Minh]","0.0","7.88"
-"Hydra - Marketplace order on ops tool","Full flow marketplace order happy case with multiple drivers","ERROR","2019-10-03T09:58:58.499+07:00[Asia/Ho_Chi_Minh]","0.0","4.96"
