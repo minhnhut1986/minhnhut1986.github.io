@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Hydra - Hybrid order on app","Full flow hybrid order happy case with one driver","SUCCESS","2019-10-02T11:40:37.674Z[GMT]","0.0","91.77"
-"Hydra - Hybrid order on app","Full flow hybrid order happy case with multiple driver","SUCCESS","2019-10-02T11:42:09.462Z[GMT]","0.0","150.82"
+"Hydra - Hybrid order on app","Full flow hybrid order happy case with one driver","ERROR","2019-10-03T09:58:27.304+07:00[Asia/Ho_Chi_Minh]","0.0","8.12"
+"Hydra - Hybrid order on app","Full flow hybrid order happy case with multiple driver","ERROR","2019-10-03T09:58:35.517+07:00[Asia/Ho_Chi_Minh]","0.0","4.89"

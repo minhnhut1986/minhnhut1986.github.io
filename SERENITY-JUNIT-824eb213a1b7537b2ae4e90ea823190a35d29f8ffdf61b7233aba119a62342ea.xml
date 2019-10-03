@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Marketplace order on ops tool" skipped="0" tests="2" time="188.77" timestamp="2019-10-02 11:47:56"><testcase name="Full flow marketplace order happy case"/><testcase name="Full flow marketplace order happy case with multiple drivers"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Hydra - Marketplace order on ops tool" skipped="0" tests="2" time="12.84" timestamp="2019-10-03 09:58:50"><testcase name="Full flow marketplace order happy case"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0
+lgv.automation.steps.api.DriverSteps.shouldBeAbleToSignIn(DriverSteps.java:824)
+lgv.automation.serenityCucumber.api.features.steps.driver.SignIn.driver_should_able_to_sign_in_on_driver_app(SignIn.java:36)
+✽.driver should be able to sign in driver app(src/test/resources/features/api/smokeTests/marketPlaceOrderOnOpsTool.feature:8)
+</system-err></testcase><testcase name="Full flow marketplace order happy case with multiple drivers"><error message="Index: 1, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 1, Size: 0</error><system-err>Index: 1, Size: 0
+lgv.automation.serenityCucumber.api.features.steps.driver.SignIn.driver_should_able_to_sign_in_on_driver_app(SignIn.java:43)
+✽.driver 1 should be able to sign in driver app(src/test/resources/features/api/smokeTests/marketPlaceOrderOnOpsTool.feature:24)
+</system-err></testcase></testsuite>
