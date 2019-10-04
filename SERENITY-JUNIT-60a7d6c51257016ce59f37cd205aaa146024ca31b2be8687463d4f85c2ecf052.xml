@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Hydra - Marketplace order on app" skipped="0" tests="2" time="149.77" timestamp="2019-10-04 04:43:29"><testcase name="Driver should be able to bidding new order when drivers of this order reject new offer"/><testcase name="Full flow marketplace order happy case with multiple drivers"><failure message="Pick up shipment error: {&quot;errors&quot;:[&quot;Đơn hàng chưa chốt đủ xe, vui lòng liên hệ Logivan để được hỗ trợ thêm&quot;]} - STOP APP" type="java.lang.AssertionError">Pick up shipment error: {"errors":["Đơn hàng chưa chốt đủ xe, vui lòng liên hệ Logivan để được hỗ trợ thêm"]} - STOP APP</failure><system-err>Pick up shipment error: {"errors":["Đơn hàng chưa chốt đủ xe, vui lòng liên hệ Logivan để được hỗ trợ thêm"]} - STOP APP
-lgv.automation.util.Log.errorAndStop(Log.java:30)
-lgv.automation.steps.api.DriverSteps.pickUpShipment(DriverSteps.java:719)
-lgv.automation.steps.api.DriverSteps.shouldBeAbleToPickUpShipment(DriverSteps.java:1200)
-lgv.automation.serenityCucumber.api.features.steps.driver.DropOffShipment.drop_off_shipment(DropOffShipment.java:43)
-✽.driver 1 should be able to drop off all shipment(src/test/resources/features/api/smokeTests/marketPlaceOrderOnApp.feature:34)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Marketplace order on app" skipped="0" tests="2" time="204.06" timestamp="2019-10-04 04:59:44"><testcase name="Driver should be able to bidding new order when drivers of this order reject new offer"/><testcase name="Full flow marketplace order happy case with multiple drivers"/></testsuite>
