@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Hydra - Hybrid order on app" skipped="0" tests="2" time="269.65" timestamp="2019-10-04 04:17:40"><testcase name="Full flow hybrid order happy case with one driver"><failure message="Pick up shipment error: An unhandled lowlevel error occurred. The application logs may have details.&#10; - STOP APP" type="java.lang.AssertionError">Pick up shipment error: An unhandled lowlevel error occurred. The application logs may have details.
- - STOP APP</failure><system-err>Pick up shipment error: An unhandled lowlevel error occurred. The application logs may have details.
- - STOP APP
-lgv.automation.util.Log.errorAndStop(Log.java:30)
-lgv.automation.steps.api.DriverSteps.pickUpShipment(DriverSteps.java:719)
-lgv.automation.steps.api.DriverSteps.shouldBeAbleToPickUpShipment(DriverSteps.java:1200)
-lgv.automation.serenityCucumber.api.features.steps.driver.PickUpShipment.pick_up_shipment(PickUpShipment.java:34)
-✽.driver should be able to pick up all shipment(src/test/resources/features/api/smokeTests/hybridOrderOnApp.feature:20)
-</system-err></testcase><testcase name="Full flow hybrid order happy case with multiple driver"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Hybrid order on app" skipped="0" tests="2" time="239.69" timestamp="2019-10-04 04:39:29"><testcase name="Full flow hybrid order happy case with one driver"/><testcase name="Full flow hybrid order happy case with multiple driver"/></testsuite>
