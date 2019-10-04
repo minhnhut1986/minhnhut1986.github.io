@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Driver on-boarding" skipped="0" tests="1" time="72.31" timestamp="2019-10-04 06:17:09"><testcase name="Create new driver"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Driver on-boarding" skipped="0" tests="1" time="75.23" timestamp="2019-10-04 06:53:31"><testcase name="Create new driver"><failure message="Accept driver document error: An unhandled lowlevel error occurred. The application logs may have details.&#10; - STOP APP" type="java.lang.AssertionError">Accept driver document error: An unhandled lowlevel error occurred. The application logs may have details.
+ - STOP APP</failure><system-err>Accept driver document error: An unhandled lowlevel error occurred. The application logs may have details.
+ - STOP APP
+lgv.automation.util.Log.errorAndStop(Log.java:30)
+lgv.automation.steps.api.OpsToolSteps.acceptDocument(OpsToolSteps.java:395)
+lgv.automation.steps.api.OpsToolSteps.shouldBeAbleToAcceptDriverIdentityID(OpsToolSteps.java:562)
+lgv.automation.serenityCucumber.api.features.steps.opsTool.AcceptDriverDocument.accept_driver_identify(AcceptDriverDocument.java:32)
+✽.ops manager accepts "new" driver identity(src/test/resources/features/api/smokeTests/driverOnboarding.feature:14)
+</system-err></testcase></testsuite>

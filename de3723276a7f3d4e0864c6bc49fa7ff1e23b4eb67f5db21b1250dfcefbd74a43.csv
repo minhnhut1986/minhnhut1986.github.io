@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Hydra - Marketplace order on app","Driver should be able to bidding new order when drivers of this order reject new offer","SUCCESS","2019-10-04T06:22:44.943Z[GMT]","0.0","79.43"
-"Hydra - Marketplace order on app","Full flow marketplace order happy case with multiple drivers","SUCCESS","2019-10-04T06:24:04.399Z[GMT]","0.0","117.13"
+"Hydra - Marketplace order on app","Driver should be able to bidding new order when drivers of this order reject new offer","SUCCESS","2019-10-04T06:59:23.476Z[GMT]","0.0","83.19"
+"Hydra - Marketplace order on app","Full flow marketplace order happy case with multiple drivers","SUCCESS","2019-10-04T07:00:46.676Z[GMT]","0.0","124.74"
