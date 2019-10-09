@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Marketplace order on ops tool" skipped="0" tests="2" time="204.22" timestamp="2019-10-09 06:52:46"><testcase name="Full flow marketplace order happy case"/><testcase name="Full flow marketplace order happy case with multiple drivers"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Hydra - Marketplace order on ops tool" skipped="0" tests="2" time="24.03" timestamp="2019-10-09 09:20:04"><testcase name="Full flow marketplace order happy case"><failure message="Create new order error: {&quot;_error&quot;:&quot;Không tạo được đơn hàng!&quot;,&quot;errors&quot;:{&quot;is_whole_truck&quot;:[&quot;không có trong danh sách&quot;]}} - STOP APP" type="java.lang.AssertionError">Create new order error: {"_error":"Không tạo được đơn hàng!","errors":{"is_whole_truck":["không có trong danh sách"]}} - STOP APP</failure><system-err>Create new order error: {"_error":"Không tạo được đơn hàng!","errors":{"is_whole_truck":["không có trong danh sách"]}} - STOP APP
+lgv.automation.util.Log.errorAndStop(Log.java:30)
+lgv.automation.steps.api.BrokerSteps.createNewMarketPlaceOrderWithTruckQuantity(BrokerSteps.java:579)
+lgv.automation.steps.api.BrokerSteps.shouldBeAbleToCreateNewMarketPlaceOrderWithTruckQuantity(BrokerSteps.java:1270)
+lgv.automation.serenityCucumber.api.features.steps.broker.CreateNewOrder.create_new_marketplace_order_with_truck_quantity_success(CreateNewOrder.java:32)
+✽.broker should be able to create new market place order with truck_quantity = 3(src/test/resources/features/api/smokeTests/marketPlaceOrderOnOpsTool.feature:9)
+</system-err></testcase><testcase name="Full flow marketplace order happy case with multiple drivers"><failure message="Create new order error: {&quot;_error&quot;:&quot;Không tạo được đơn hàng!&quot;,&quot;errors&quot;:{&quot;is_whole_truck&quot;:[&quot;không có trong danh sách&quot;]}} - STOP APP" type="java.lang.AssertionError">Create new order error: {"_error":"Không tạo được đơn hàng!","errors":{"is_whole_truck":["không có trong danh sách"]}} - STOP APP</failure><system-err>Create new order error: {"_error":"Không tạo được đơn hàng!","errors":{"is_whole_truck":["không có trong danh sách"]}} - STOP APP
+lgv.automation.util.Log.errorAndStop(Log.java:30)
+lgv.automation.steps.api.BrokerSteps.createNewMarketPlaceOrderWithTruckQuantity(BrokerSteps.java:579)
+lgv.automation.steps.api.BrokerSteps.shouldBeAbleToCreateNewMarketPlaceOrderWithTruckQuantity(BrokerSteps.java:1270)
+lgv.automation.serenityCucumber.api.features.steps.broker.CreateNewOrder.create_new_marketplace_order_with_truck_quantity_success(CreateNewOrder.java:32)
+✽.broker should be able to create new market place order with truck_quantity = 5(src/test/resources/features/api/smokeTests/marketPlaceOrderOnOpsTool.feature:26)
+</system-err></testcase></testsuite>
