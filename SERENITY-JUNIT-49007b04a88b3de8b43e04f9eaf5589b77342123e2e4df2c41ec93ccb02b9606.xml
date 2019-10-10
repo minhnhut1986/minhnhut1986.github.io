@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Hydra - Hybrid order on app" skipped="0" tests="2" time="27.3" timestamp="2019-10-09 09:19:13"><testcase name="Full flow hybrid order happy case with one driver"><failure message="Create new order error: {&quot;_error&quot;:&quot;Không tạo được đơn hàng!&quot;,&quot;errors&quot;:{&quot;is_whole_truck&quot;:[&quot;không có trong danh sách&quot;]}} - STOP APP" type="java.lang.AssertionError">Create new order error: {"_error":"Không tạo được đơn hàng!","errors":{"is_whole_truck":["không có trong danh sách"]}} - STOP APP</failure><system-err>Create new order error: {"_error":"Không tạo được đơn hàng!","errors":{"is_whole_truck":["không có trong danh sách"]}} - STOP APP
-lgv.automation.util.Log.errorAndStop(Log.java:30)
-lgv.automation.steps.api.BrokerSteps.createNewHybridOrderWithTruckQuantity(BrokerSteps.java:667)
-lgv.automation.steps.api.BrokerSteps.shouldBeAbleToCreateNewHybridOrderWithTruckQuantity(BrokerSteps.java:1322)
-lgv.automation.serenityCucumber.api.features.steps.broker.CreateNewOrder.create_new_hybrid_order_with_truck_quantity_success(CreateNewOrder.java:56)
-✽.broker should be able to create new hybrid order with truck_quantity = 3(src/test/resources/features/api/smokeTests/hybridOrderOnApp.feature:9)
-</system-err></testcase><testcase name="Full flow hybrid order happy case with multiple driver"><failure message="Create new order error: {&quot;_error&quot;:&quot;Không tạo được đơn hàng!&quot;,&quot;errors&quot;:{&quot;is_whole_truck&quot;:[&quot;không có trong danh sách&quot;]}} - STOP APP" type="java.lang.AssertionError">Create new order error: {"_error":"Không tạo được đơn hàng!","errors":{"is_whole_truck":["không có trong danh sách"]}} - STOP APP</failure><system-err>Create new order error: {"_error":"Không tạo được đơn hàng!","errors":{"is_whole_truck":["không có trong danh sách"]}} - STOP APP
-lgv.automation.util.Log.errorAndStop(Log.java:30)
-lgv.automation.steps.api.BrokerSteps.createNewHybridOrderWithTruckQuantity(BrokerSteps.java:667)
-lgv.automation.steps.api.BrokerSteps.shouldBeAbleToCreateNewHybridOrderWithTruckQuantity(BrokerSteps.java:1322)
-lgv.automation.serenityCucumber.api.features.steps.broker.CreateNewOrder.create_new_hybrid_order_with_truck_quantity_success(CreateNewOrder.java:56)
-✽.broker should be able to create new hybrid order with truck_quantity = 6(src/test/resources/features/api/smokeTests/hybridOrderOnApp.feature:31)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Hybrid order on app" skipped="0" tests="2" time="252.58" timestamp="2019-10-10 07:28:39"><testcase name="Full flow hybrid order happy case with one driver"/><testcase name="Full flow hybrid order happy case with multiple driver"/></testsuite>
