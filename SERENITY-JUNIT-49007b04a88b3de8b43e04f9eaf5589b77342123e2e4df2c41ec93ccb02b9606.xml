@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Hydra - Hybrid order on app" skipped="0" tests="2" time="252.58" timestamp="2019-10-10 07:28:39"><testcase name="Full flow hybrid order happy case with one driver"/><testcase name="Full flow hybrid order happy case with multiple driver"/></testsuite>
