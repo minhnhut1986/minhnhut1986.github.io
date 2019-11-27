@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <title>Requirements</title>
+    <title>Capabilities</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -103,7 +103,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Desktop","type":"theme","href":"7d9dbef859fbbfe9d5faca2a25aba8866097ef8dc3f94b2e4f660958f1cbdb35.html","nodes":[{"text":"Acceptance tests","type":"theme","href":"91fe6d7623a0422baf207fccfd1ecaeb5e70ab44aa1a60182ebae3942ee7bb2c.html","nodes":[{"text":"Broker web","type":"theme","href":"f7cd6b0a5fe4cc0444678fed2f18564ebc2f616e981a29a981fb8e938bdcab92.html","nodes":[{"text":"Create order acceptance test","type":"feature","href":"10d689d55e907b2adec02298c2b543b113bef3090d1242cb724d935378b7ff20.html","nodes":[],"selectable":false,"tags":["",""]}],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 feature\u003c/span\u003e"]},{"text":"Ops tool","type":"theme","href":"5d5fb5df87cc370d770f41097c48850ee757bf3f51addff3423596b54d70c492.html","nodes":[{"text":"Booking","type":"capability","href":"c672644b3dfd73bd25f82d4721b5943ceb97a97ecd326295ea5ccf30bbba3b6f.html","nodes":[{"text":"Create booking acceptance test","type":"feature","href":"ca5be986d19270f947c63734e465971c50a971a22d0bd3028cfddef91fac9a4f.html","nodes":[],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 feature\u003c/span\u003e"]},{"text":"Filter order acceptance test","type":"feature","href":"555980e37fc7a81b65a636ca74b82ee022ab5d247328ae62ea3876e839224cf6.html","nodes":[],"selectable":false,"tags":["",""]}],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 capabilities\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 themes\u003c/span\u003e"]},{"text":"Create booking acceptance test","type":"feature","href":"d86f4655acf87582d7effc813ee0db5f4d84806b3133d6c68a923ca85d4e5267.html","nodes":[],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 themes\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Booking","type":"capability","href":"c672644b3dfd73bd25f82d4721b5943ceb97a97ecd326295ea5ccf30bbba3b6f.html","nodes":[{"text":"Create booking acceptance test","type":"feature","href":"ca5be986d19270f947c63734e465971c50a971a22d0bd3028cfddef91fac9a4f.html","nodes":[],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 feature\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -148,7 +148,12 @@
             <span class="breadcrumbs">
             <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
 
+                > <a href="7d9dbef859fbbfe9d5faca2a25aba8866097ef8dc3f94b2e4f660958f1cbdb35.html">Desktop</a>
+                > <a href="91fe6d7623a0422baf207fccfd1ecaeb5e70ab44aa1a60182ebae3942ee7bb2c.html">Acceptance Tests</a>
+                > <a href="5d5fb5df87cc370d770f41097c48850ee757bf3f51addff3423596b54d70c492.html">Ops Tool</a>
 
+
+                > <span class="truncate-40">Booking</span>
 
             </span>
         </div>
@@ -163,14 +168,14 @@
         <li >
             <a href="index.html"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
         </li>
-        <li class="active">
-            <a href="#"><i class="fa fa-book"></i> Requirements</a>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
         <li >
             <a href="dafb266f68444cb7f2451c923d70c1428ac45470c361842b818e6daa9bcd4fa8.html"><i class="fa fa-comments-o"></i> Themes</a>
         </li>
-        <li >
-            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        <li class="active">
+            <a href="#"><i class="fa fa-comments-o"></i> Capabilities</a>
         </li>
         <li >
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
@@ -185,6 +190,25 @@
     <div id="beforetable"></div>
     <div id="results-dashboard">
         <div class="table">
+                <div class=row">
+                    <div class="col-sm-12">
+                        <div>
+                            <div clas="table">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                    <span>
+                                            <h2><i class="fa fa-book"></i> Capability:  Booking</h2>
+                                        </span>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="requirementNarrativeTitle">
+                                
+                            </div>
+
+                        </div>
+                    </div>
 
 
             <div class="row">
@@ -295,7 +319,7 @@
                                                 <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
-                                                                             <td colspan="3"><a href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html"><i
+                                                                             <td colspan="3"><a href="b8bf66af8e6c8618a584b2587f639280d6920ef016b492d3b4cb6a45963c9fd8.html"><i
                                                                                     class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                             </td>
 
@@ -310,7 +334,7 @@
                                                 <td class="automated-stats"> </td>
                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
-                                                                        <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html"><i
+                                                                        <a href="3aace830ab3966064de0eb0c8fedf59975abaa6a6b0fa40778bab7732e97f267.html"><i
                                                                                 class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
                                                                     </td>
                                                 <td class="automated-stats">1</td>
@@ -365,12 +389,12 @@
 
 
 
-<h4 class="requireent-type-heading">Themes</h4>
+<h4 class="requireent-type-heading">Features</h4>
 
 <table class="scenario-result table" id="req-results-table">
     <thead>
         <tr>
-            <th class="requirement-name-column" width="60%">Theme</th>
+            <th class="requirement-name-column" width="60%">Feature</th>
             <th>ID</th>
             <th>Automated Tests</th>
                 <th>Manual Tests</th>
@@ -385,7 +409,7 @@
 
 
             <td> 
-                <a href="7d9dbef859fbbfe9d5faca2a25aba8866097ef8dc3f94b2e4f660958f1cbdb35.html">Desktop</a></span>
+                <a href="ca5be986d19270f947c63734e465971c50a971a22d0bd3028cfddef91fac9a4f.html">Create booking acceptance test</a></span>
             </td>
             <td> 
                 

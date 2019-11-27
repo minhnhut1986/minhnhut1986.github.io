@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Create booking acceptance test" skipped="0" tests="1" time="42.58" timestamp="2019-11-27 09:50:12"><testcase name="ops manager should be able to create new SME booking"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0
+lgv.automation.page.desktop.opsTool.OpsToolMainPage.clickOnItemBookingCreation(OpsToolMainPage.java:104)
+lgv.automation.steps.desktop.OpsToolSteps.goToBookingCreationPage(OpsToolSteps.java:122)
+lgv.automation.serenityCucumber.desktop.features.steps.opsTool.ManageMainPage.go_to_booking_creation_page(ManageMainPage.java:28)
+✽.ops manager should be able to go to booking creation page(src/test/resources/features/desktop/test.feature:11)
+</system-err></testcase></testsuite>

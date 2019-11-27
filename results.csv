@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Driver on-boarding","Create new driver and driver on-boarding","FAILURE","2019-10-28T11:20:40.318Z[GMT]","0.0","13.39"
+"Create booking acceptance test","ops manager should be able to create new SME booking","ERROR","2019-11-27T09:50:12.779Z[UTC]","0.0","42.58"
